@@ -361,6 +361,7 @@ a:hover .span4 {
     height: 60vh;
     padding: 50px;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 .type {
@@ -370,6 +371,7 @@ a:hover .span4 {
     transform-style: preserve-3d;
     transition: 1s;
     transform: scale(1.05, 1.05);
+
     /* margin-left: 25px; */
 }
 
@@ -379,7 +381,7 @@ a:hover .span4 {
 
 .lin {
     position: absolute;
-    width: 310px;
+    width: 325px;
     height: 300px;
     background: linear-gradient(to top, rgb(0 0 0 / 90%), rgb(255 255 255 / 0%)30%);
     z-index: 5;
@@ -387,7 +389,7 @@ a:hover .span4 {
 }
 
 .types img {
-    width: 310px;
+    width: 325px;
     height: 300px;
     transition: 1s;
     transform: scale(1)
@@ -408,7 +410,7 @@ a:hover .span4 {
 .types p {
     position: absolute;
     bottom: -45px;
-    left: 30%;
+    left: 35%;
     transition: 1s;
 }
 
@@ -420,7 +422,7 @@ a:hover .span4 {
 .type .link {
     position: absolute;
     bottom: -45px;
-    left: 35%;
+    left: 40%;
     margin-bottom: -50px;
     transition: 1s;
     z-index: 8;
